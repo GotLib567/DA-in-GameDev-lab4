@@ -43,9 +43,15 @@
 
 ![image](https://user-images.githubusercontent.com/80561050/208313733-8929710c-2360-425b-a2f6-47a701eb4cbb.png)
 
+
 - Создал массив из 4 логических элементов и запустил код с Train(1). Total Error вышла 2:
 
 ![image](https://user-images.githubusercontent.com/80561050/208314127-551015ee-170f-4569-9ea0-3cf99d403c6b.png)
+
+
+- Прогнал значения через CalcOutput с Train(4), TotalError в большинстве случаев к 4й итерцаии становится 0:
+
+![image](https://user-images.githubusercontent.com/80561050/208314351-cb3fa0ff-f3de-4014-9b69-0747cf2cf1d2.png)
 
 
 ## Задание 2
