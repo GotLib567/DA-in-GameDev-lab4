@@ -39,10 +39,12 @@
 
 ## Задание 1
 
-Навесил файл с кодом перцептрона на пустой GameObject:
+- Навесил файл с кодом перцептрона на пустой GameObject:
+
 ![image](https://user-images.githubusercontent.com/80561050/208313733-8929710c-2360-425b-a2f6-47a701eb4cbb.png)
 
-Создал массив из 4 логических элементов и запустил код с Train(1). Total Error вышла 2:
+- Создал массив из 4 логических элементов и запустил код с Train(1). Total Error вышла 2:
+
 ![image](https://user-images.githubusercontent.com/80561050/208314127-551015ee-170f-4569-9ea0-3cf99d403c6b.png)
 
 
