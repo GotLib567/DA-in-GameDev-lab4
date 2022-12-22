@@ -41,18 +41,19 @@
 
 - Навесил файл с кодом перцептрона на пустой GameObject:
 
-	using System.Collections;
-	using System.Collections.Generic;
-	using UnityEngine;
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-	[System.Serializable]
-	public class TrainingSet
-	{
-		public double[] input;
-		public double output;
-	}
+[System.Serializable]
+public class TrainingSet
+{
+	public double[] input;
+	public double output;
+}
 
-	public class Perceptron : MonoBehaviour {
+public class Perceptron : MonoBehaviour {
 
 	public TrainingSet[] ts;
 	double[] weights = {0,0};
@@ -130,17 +131,19 @@
 	}
 
 	void Start () {
-		Train(8);
+		Train(4);
+
 		Debug.Log("Test 0 0: " + CalcOutput(0,0));
 		Debug.Log("Test 0 1: " + CalcOutput(0,1));
 		Debug.Log("Test 1 0: " + CalcOutput(1,0));
-		Debug.Log("Test 1 1: " + CalcOutput(1,1));		
+		Debug.Log("Test 1 1: " + CalcOutput(1,1));
 	}
 	
 	void Update () {
 		
 	}
-	}
+}
+```
 
 ![image](https://user-images.githubusercontent.com/80561050/208313733-8929710c-2360-425b-a2f6-47a701eb4cbb.png)
 
