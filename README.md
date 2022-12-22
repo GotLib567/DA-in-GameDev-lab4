@@ -147,7 +147,7 @@ public class Perceptron : MonoBehaviour {
 
 ![image](https://user-images.githubusercontent.com/80561050/208313733-8929710c-2360-425b-a2f6-47a701eb4cbb.png)
 
-**OR**
+**Подсчёт для OR**
 
 - Создал массив из 4 логических элементов и запустил код с Train(1). Total Error вышла 2:
 
@@ -157,6 +157,26 @@ public class Perceptron : MonoBehaviour {
 - Прогнал значения через CalcOutput с Train(4), TotalError в большинстве случаев к 4й итерцаии становится 0:
 
 ![image](https://user-images.githubusercontent.com/80561050/208314351-cb3fa0ff-f3de-4014-9b69-0747cf2cf1d2.png)
+
+
+**Подсчёт для AND**
+
+- Изменил значения в массиве логических элементов:
+
+![image](https://user-images.githubusercontent.com/80561050/209116122-e5962baa-9108-4530-99fa-72308bea2e04.png)
+
+- TotalError в большинстве случаев к 7й итерцаии становится 0:
+
+![image](https://user-images.githubusercontent.com/80561050/209116218-ced750db-4402-48a8-a89b-c57707710da8.png)
+
+
+**Подсчёт для NAND**
+
+- Изменил значения в массиве логических элементов:
+
+
+- TotalError в большинстве случаев к 9й итерцаии становится 0:
+
 
 
 ## Задание 2
