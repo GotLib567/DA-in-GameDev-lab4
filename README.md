@@ -147,6 +147,7 @@ public class Perceptron : MonoBehaviour {
 
 ![image](https://user-images.githubusercontent.com/80561050/208313733-8929710c-2360-425b-a2f6-47a701eb4cbb.png)
 
+**OR**
 
 - Создал массив из 4 логических элементов и запустил код с Train(1). Total Error вышла 2:
 
